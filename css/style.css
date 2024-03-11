@@ -1,0 +1,63 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-primary);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item_1{
+    margin: 5%;
+}
+.item_1 h1{
+    line-height: 45px;
+    font-weight: 505;
+    margin-left: 18%;
+}
+.item_1 p{
+    margin-top: 3%;
+    margin-left: 18%;
+}
+.item_1 button{
+    border-style: none;
+    font-family: sans-serif;
+    color: var(--color-primary);
+    background: var(--color-secundary);
+    font-size: 15px;
+    margin-top: 3%;
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    margin-left: 18%;
+}
+.imgs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.foto1{
+    margin-top: 100px;
+    margin-left: 96px;
+}
+.foto4{
+    margin-top: 100px;
+    margin-left: -90px;
+}
+.item_2 img{
+    margin: 15%;
+    margin-top: 3%;
+}
+.text2 h1{
+    line-height: 45px;
+    font-weight: 505;
+    margin-left: 0%;
+}
+.text2 p{
+    margin-top: 6%;
+    margin-left: 0%;
+}
